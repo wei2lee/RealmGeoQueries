@@ -215,7 +215,7 @@ public extension MKCoordinateRegion {
 }
 
 // MARK: - Private core extensions
-public extension Results {
+private extension Results {
     
     /**
      Add distance to sort results
@@ -246,7 +246,7 @@ public extension Results {
     
 }
 
-public extension Array where Element:Object {
+private extension Array where Element:Object {
     
     /**
      Sorting function
@@ -275,7 +275,7 @@ public extension Array where Element:Object {
     
 }
 
-public extension Object {
+private extension Object {
     
     private struct AssociatedKeys {
         static var DistanceKey = "DistanceKey"
