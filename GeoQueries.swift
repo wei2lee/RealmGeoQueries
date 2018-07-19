@@ -230,7 +230,7 @@ public extension MKCoordinateRegion {
     
 }
 
-private extension Array where Element: Object {
+public extension Array where Element: Object {
     
     /**
      Sorting function
@@ -260,7 +260,7 @@ private extension Array where Element: Object {
 }
 
 // MARK: - Private core extensions
-private extension RealmCollection where Element: Object {
+public extension RealmCollection where Element: Object {
     
     /**
      Add distance to sort results
@@ -291,7 +291,7 @@ private extension RealmCollection where Element: Object {
     
 }
 
-private extension Object {
+public extension Object {
     
     private struct AssociatedKeys {
         static var DistanceKey = "DistanceKey"
